@@ -8,15 +8,20 @@
 
 </head>
 <body>
-    <h1>MNIST Digit Recognition</h1>
-
-    <canvas id="canvas" width="280" height="280"></canvas>
-
-    <form id="prediction-form">
-        <button type="button" onclick="predictDigit()">Predict</button>
-    </form>
-
-    <div id="prediction-result"></div>
+    <Section>
+        <h1>MNIST Digit Recognition</h1>
+    </Section>
+    <section>
+        <canvas id="canvas" width="280" height="280"></canvas>
+    </Section>
+    <section>
+        <form id="prediction-form">
+            <button type="button" onclick="predictDigit()">Predict</button>
+        </form>
+    </Section>
+    <section>
+        <div id="prediction-result"></div>
+    </Section>
 
     <script>
         var canvas = document.getElementById("canvas");
